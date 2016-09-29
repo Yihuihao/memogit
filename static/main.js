@@ -21,10 +21,12 @@ require.config({
 });
 
 //将各模块暴露给外部文档
-require(['jquery'],function($){
+require(['jquery','js/views/header'],function($,Header){
     $(function(){
        $('#loading').hide();
         //$('main').css('display','block');
         $('main').stop().fadeIn();
     });
+
+    new Header();
 });
