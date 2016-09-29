@@ -16,7 +16,9 @@
             <!-- 标题-->
             <h1>xxxx年xx月xx日&#x3000;周x</h1>
             <!-- 单选按钮组：使用jQueyUI中的样式-->
+            <div id="radio">
 
+            </div>
 
         </header>
         <section>
@@ -29,3 +31,26 @@
 </body>
 </html>
 <script src="js/libs/require.js" data-main="main"></script>
+
+
+<!--
+    使用arttemplate模板
+    header中按钮组的模板
+    id：唯一标识符；
+    time：当前的时间；
+    name：label上的文字
+-->
+<!--
+    当需要循环时，在模板中使用:
+    {{each xxx ad item}}
+    xxxxx
+    {{/each}}
+-->
+<!--id:指定模板，type：指定模板类型-->
+<!--在arttemplate模板中，允许使用  三目运算 -->
+<script type="text/html" id="dataTemplate">
+    {{each data as item}}
+    <input type="radio" name="date" id="{{item.id}}" data-time="{{item.time}}" {{item.check==true?'checked':''}}>
+    <label for="{{item.id}}">{{item.name}}</label>
+    {{/each}}
+</script>
