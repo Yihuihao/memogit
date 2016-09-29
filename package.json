@@ -1,0 +1,19 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "这是一个备忘录",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "backbone",
+    "mongodb",
+    "jQuery",
+    "jqueryUI",
+    "font-awesome"
+  ],
+  "author": "一卉",
+  "license": "ISC"
+}
