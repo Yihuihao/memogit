@@ -17,5 +17,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f6f6f6;
+    background: #444;
+}
+#loading {
+    color: #fff;
+}
+main {
+    width: 600px;
+    height: 400px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 15px;
+    display: none;
 }

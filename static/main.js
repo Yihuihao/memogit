@@ -21,6 +21,10 @@ require.config({
 });
 
 //将各模块暴露给外部文档
-require([],function(){
-
+require(['jquery'],function($){
+    $(function(){
+       $('#loading').hide();
+        //$('main').css('display','block');
+        $('main').stop().fadeIn();
+    });
 });
