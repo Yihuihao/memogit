@@ -2,25 +2,25 @@
  * Created by Administrator on 2016/9/29.
  */
 
-//Ê¹ÓÃrequireJS½øĞĞ»ù±¾ÒÀÀµÏîÉèÖÃ
+//ä½¿ç”¨requireJSè¿›è¡ŒåŸºæœ¬ä¾èµ–é¡¹è®¾ç½®
 
 require.config({
     paths:{
-        //Â·¾¶ÎªÏà¶ÔÓÚ×ÔÉíÎÄ¼şµÄÂ·¾¶£¬ÎÄ¼şÀàĞÍ .js Ê¡È¥
+        //è·¯å¾„ä¸ºç›¸å¯¹äºè‡ªèº«æ–‡ä»¶çš„è·¯å¾„ï¼Œæ–‡ä»¶ç±»å‹ .js çœå»
         'jquery':'js/libs/jquery',
         'template':'js/libs/template',
         'jquery-ui':'js/libs/jquery-ui/jquery-ui.min',
         'underscore':'js/libs/underscore',
         'backbone':'js/libs/backbone'
     },
-    //ÒÀÀµÏîÉèÖÃ
+    //ä¾èµ–é¡¹è®¾ç½®
     shim:{
         'backbone':['underscore','jquery'],
         'jquery-ui':['jquery']
     }
 });
 
-//½«¸÷Ä£¿é±©Â¶¸øÍâ²¿ÎÄµµ
+//å°†å„æ¨¡å—æš´éœ²ç»™å¤–éƒ¨æ–‡æ¡£
 require(['jquery'],function($){
     $(function(){
        $('#loading').hide();
