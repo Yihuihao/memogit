@@ -13,7 +13,7 @@ html{
 body {
     width: 100%;
     height: 100%;
-    /*ÎªÁËÊÇbodyÄÚµÄitemÍ¬Ê±Ë®Æ½¡¢´¹Ö±¾ÓÖĞ*/
+    /*ä¸ºäº†æ˜¯bodyå†…çš„itemåŒæ—¶æ°´å¹³ã€å‚ç›´å±…ä¸­*/
     display: flex;
     justify-content: center;
     align-items: center;
