@@ -1,0 +1,21 @@
+* {
+    margin:0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    /*为了是body内的item同时水平、垂直居中*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+}
