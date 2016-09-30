@@ -7,7 +7,7 @@ const exp = require('express'),
 app.use(exp.static('static'));
 
 app.listen(3000,()=>{
-    console.log('·şÎñÆ÷¼àÌı¶Ë¿ÚºÅ3000£¬running....');
+    console.log('æœåŠ¡å™¨ç›‘å¬ç«¯å£å·3000ï¼Œrunning....');
 });
 
 
